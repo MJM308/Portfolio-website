@@ -1,0 +1,133 @@
+.navbar {
+  width: 100%;
+  padding: 0px 10px;
+  /* background-color: #adadad; */
+  background-color: #282828;
+  position: fixed;
+  z-index: 1;
+}
+.navbar-container {
+  padding: 2px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-container {
+  display: flex;
+  border-radius: 20px;
+  margin-left: 30px;
+  padding: 4px 0;
+}
+.logo-container img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 80px;
+  cursor: pointer;
+}
+.logo-container p {
+  cursor: pointer;
+  text-transform: uppercase;
+  padding-right: 7px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 25px;
+  font-size: 30px;
+  font-weight: 500;
+  background: linear-gradient(267deg, #bbb8b1, #b2b2b2, #bbb8b1);
+}
+.navbar-container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.navbar-container ul li {
+  padding: 8px;
+}
+.navbar-container ul :hover {
+  color: rgb(96 87 242);
+  border-bottom: 2px solid rgb(96 87 242);
+}
+.contact-btn {
+  border-radius: 30px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 22px;
+  text-align: center;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  outline: 2px solid rgb(96 87 242);
+}
+button:hover {
+  color: #fff;
+  background-color: rgb(96 87 242);
+}
+.active {
+  color: rgb(96 87 242);
+}
+
+/* Mobile size */
+.menu {
+  padding-top: 29px;
+  font-size: 20px;
+  display: none;
+}
+
+.menubar {
+  position: absolute;
+  width: 250px;
+  height: 330px;
+  background-color: rgb(149 149 149);
+  right: 48px;
+}
+.menubar ul {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+.mobile-nav {
+  color: black;
+  list-style: none;
+  text-align: center;
+}
+.mobile-nav li {
+  margin: 20px 0;
+  font-size: 26px;
+  border-bottom: 1px solid black;
+}
+.mobile-con {
+  font-size: 33px;
+  padding: 2px 23px;
+  border-radius: 28px;
+  font-weight: 500;
+  /* margin-top: 22px; */
+  text-align: center;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  outline: 2px solid rgb(96 87 242);
+}
+
+@media (max-width: 400px) {
+  .menu {
+    display: block;
+  }
+  .navbar-container ul,
+  .contact-btn {
+    display: none;
+  }
+  .logo-container {
+    font-size: 20px;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}

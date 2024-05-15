@@ -1,0 +1,74 @@
+#client {
+  /* background-color: red; */
+  margin: 90px 50px;
+  text-align: center;
+}
+#client h2 {
+  font-size: 45px;
+  margin: 10px;
+}
+#client p {
+  padding: 5px 275px;
+  font-size: 20px;
+}
+
+.clientComp img {
+  margin: 50px 10px;
+  width: 180px;
+  height: 70px;
+  border-radius: 10px;
+}
+#Contact {
+  text-align: center;
+  background-color: rgba(20, 20, 20, 0.51);
+  padding: 90px 0;
+  margin: 40px 0;
+}
+.conTitle {
+  font-size: 30px;
+  margin: 20px;
+}
+.conDesc {
+  margin: 20px;
+  font-size: 20px;
+}
+.ConForm {
+  padding: 10px 100px;
+}
+.cntInt {
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+  /* background-color: #fffbfb; */
+}
+.cntIntArea {
+  margin: 10px;
+  border: 1px solid black;
+  width: 500px;
+  height: 100px;
+  max-width: 500px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  /* background-color: #fffbfb; */
+}
+.conBtn {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: #f2a557;
+  cursor: pointer;
+}
+.conBtn:hover {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #6057f2;
+  background-color: white;
+}

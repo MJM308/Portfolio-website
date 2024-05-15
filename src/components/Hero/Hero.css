@@ -1,0 +1,47 @@
+.main {
+  width: 100%;
+  padding: 50px 20px;
+  position: relative;
+  top: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 58px;
+  /* z-index: -1; */
+}
+.main-containe {
+  padding: 0 90px;
+}
+.hello {
+  font-size: 30px;
+}
+.title {
+  padding: 10px 0;
+  font-size: 4rem;
+}
+.title b {
+  color: yellow;
+}
+.main-containe p {
+  font-size: 20px;
+}
+
+.main-img img {
+  width: 40rem;
+}
+.hire {
+  color: blue;
+  background-color: yellow;
+  border: none;
+  border-radius: 30px;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 22px;
+  text-align: center;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  /* color: #000; */
+}

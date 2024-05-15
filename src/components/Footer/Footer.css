@@ -1,0 +1,27 @@
+.footer {
+  background-color: #282828;
+  text-align: center;
+  width: 100%;
+  padding: 51px 0;
+}
+.social-media {
+  margin: 13px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  font-size: 35px;
+  color: white;
+}
+.copyright {
+  margin: 20px 0;
+  word-spacing: 3px;
+  letter-spacing: 1.5px;
+}
+.copyright span {
+  color: rgb(253, 62, 192);
+  text-decoration: underline;
+}
+.policy {
+  margin: 13px;
+}

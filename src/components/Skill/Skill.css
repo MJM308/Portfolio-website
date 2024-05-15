@@ -1,0 +1,41 @@
+#Skill {
+  background-color: rgba(20, 20, 20, 0.51);
+  text-align: center;
+  padding: 40px 0;
+}
+.skillTitle {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.skillDesc {
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 0 18rem;
+}
+.skillBars {
+  padding: 70px 330px;
+}
+.skillBar {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #484848;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.skillBar img {
+  width: 40px;
+  margin-right: 30px;
+  align-items: center;
+}
+.skillHeadTitle {
+  font-size: 2rem;
+  text-align: left;
+}
+.skillHeadDesc {
+  font-size: 1rem;
+  text-align: left;
+}
